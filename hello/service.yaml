@@ -7,7 +7,7 @@ spec:
     app: argocd-helloworld
   ports:
   - name: http
-    nodePort: 31805
+    nodePort: 31806
     port: 80
     protocol: TCP
     targetPort: 80
