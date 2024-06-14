@@ -6,6 +6,9 @@ spec:
   selector:
     app: argocd-helloworld
   ports:
-  - port: 80
+  - name: http
+    nodePort: 31804
+    port: 80
+    protocol: TCP
     targetPort: 80
   type: NodePort
